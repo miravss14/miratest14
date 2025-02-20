@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    text-align: center;
+}
+
+caption {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.green {
+    background-color: green;
+    color: rgb(0, 0, 0);
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
